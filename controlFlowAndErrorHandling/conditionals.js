@@ -161,7 +161,27 @@ switch(instructor) {
 
 }
 
+let grade = 57; 
 
-
+switch(true) {
+    case grade <= 100 && grade >= 89:
+    console.log(`If you grade is ${grade}. You get an A`);
+    break;
+  case grade <= 88 && grade >= 79:
+    console.log(`If your grade is ${grade}. You get a B`); 
+    break;
+  case (grade <= 78 && grade >= 66): 
+    console.log(`If your grade is ${grade}. You get a C`) ;
+    break;
+  case (grade <= 65 && grade >= 59) :
+    console.log(`If your grade is ${grade}. You get a D`);
+    break;
+  case (grade <= 58 ): 
+    console.log(`If ${grade}. I will need to talk to your parents`)
+    break;
+    default:
+      console.log("Were you even in class?");
+        
+}
 
 

@@ -33,7 +33,7 @@ function funcOne(){
 funcOne();
 
 //? Function Expression
-
+//Assigning a function to a variable is what is called and expression
 let first = function funcTwo(){
   console.log('Second Statement');
 }
@@ -47,3 +47,35 @@ let anon = function(){
   console.log(`anon function`)
 }
 anon();
+
+
+
+//? Parameters
+// Allows us to accecpt information already delcared.
+
+function parameterFunc(num) {
+  console.log(num);
+}
+
+parameterFunc(2);
+parameterFunc(9);
+
+let returnedVal = 5;
+parameterFunc(returnedVal);
+
+let firstName = "Jane";
+let lastName = "Doe";
+
+function greeting(first, last) {
+   console.log(`Hi, ${first}! Welcome back!`);
+   console.log(`This is the first parameter: ${first}`);
+   console.log(`This is the last parameter: ${last}`);
+}
+
+greeting(firstName, lastName);
+greeting('', lastName);
+
+
+/*
+
+*/
