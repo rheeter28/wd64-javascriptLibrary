@@ -44,7 +44,7 @@ let slightlyComplex = (x,y) => x > 2 && y < 2 ? console.log(`${x} is greater tha
    console.log(x);
  }
 
- sampleBlock(99);
+ sampleBlock(99); 
 
  //?
 

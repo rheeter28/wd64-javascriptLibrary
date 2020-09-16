@@ -2,11 +2,11 @@
 ! FUNCTIONS
 
 Functions are a process what we call upon to run an action.
-  -Take in input so that it can process it, modigy it or just respond to it.
+  -Take in input so that it can process it, modify it or just respond to it.
 
-Returns a value(but not always)\
+Returns a value( but not always)
 
-Can be invoked(called upon)as often as we need
+Can be invoked (called upon) as often as we need
 
 */
  //1    //2 //3
