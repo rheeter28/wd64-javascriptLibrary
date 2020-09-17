@@ -56,7 +56,7 @@ let word = 'supercalifragilisticexpialidocious'
     |  <statement>
     }
   */
-/
+
   let list = ['milk', 'eggs', 'beans', 'bread', 'bananas'];
 
   for(item in list) {
@@ -102,10 +102,11 @@ let fullName;
     for loop: loops through a block of code util the counter reaches a specivied number
     for in loops: loops through properties of an object.
     for of loops: loops over iterables objects as in arrays and strings "strings can be accessed much in the same way as arrays."
-   /
- 
+   */
 
-
-
-
-
+  
+  
+    function whatDoesItDo(val) {
+      return val ? 1 : 2;
+    };
+  console.log(val);

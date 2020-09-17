@@ -40,7 +40,7 @@ if(weather < 70 &&  !rain) {
 * **************
 ! IF ELSE
 * **************
-IF/ELSE statements wllow us the ability wo write out a chain of events.
+IF/ELSE statements allow us the ability wo write out a chain of events.
 */
 
 let today = 65;
