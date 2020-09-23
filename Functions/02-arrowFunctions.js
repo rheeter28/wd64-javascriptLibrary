@@ -46,5 +46,12 @@ let slightlyComplex = (x,y) => x > 2 && y < 2 ? console.log(`${x} is greater tha
 
  sampleBlock(99); 
 
- //?
+ let m = 31;
+ let n = "awesome";
 
+let heeter = (m,n) => {
+  return `robert is ${m} and ${n}`;
+}
+console.log(heeter(31, 'aswesome'));
+
+heeter();

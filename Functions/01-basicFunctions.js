@@ -76,6 +76,9 @@ greeting(firstName, lastName);
 greeting('', lastName);
 
 
-/*
+let myDog = function charlie(){
+ return console.log('I am still a cutie');
 
-*/
+
+}
+myDog();
