@@ -2,7 +2,6 @@
 //console.log(x);
 
 const baseURL = 'https://api.spacexdata.com/v2/rockets';
-
 const searchForm = document.querySelector('form');
 const spaceShips = document.querySelector('ul');
 
