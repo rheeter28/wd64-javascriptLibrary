@@ -55,3 +55,13 @@ let heeter = (m,n) => {
 console.log(heeter(31, 'aswesome'));
 
 heeter();
+/*
+?Syntax for teneries
+
+conditon ? expIfTrue : experIfFalse
+
+condition: as expression whose value is used at a condition
+
+experIfTrue: 
+
+*/

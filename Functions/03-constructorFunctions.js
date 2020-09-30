@@ -2,7 +2,7 @@
 * ***********
 ! CONSTRUCTOR FUNCTIONS
 * ************
-  - Function allows us to easily create a unique soltion for divverens circumstances by useing parameters. 
+  - Function allows us to easily create a unique soltion for differents circumstances by useing parameters. 
   -   
 
 */
